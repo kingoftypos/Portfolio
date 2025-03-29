@@ -1,4 +1,4 @@
-"use client"
+
 
 import { useState, useEffect, useContext } from "react"
 import { ThemeContext } from "../context/ThemeContext"
@@ -14,10 +14,10 @@ const Navbar = () => {
     { name: "About", url: "#about" },
     { name: "Education", url: "#education" },
     { name: "Skills", url: "#skills" },
-    { name: "Experience", url: "#experience" },
+    // { name: "Experience", url: "#experience" },
     { name: "Projects", url: "#projects" },
     { name: "Achievements", url: "#achievements" },
-    { name: "Testimonials", url: "#testimonials" },
+    // { name: "Testimonials", url: "#testimonials" },
     { name: "Contact", url: "#contact" },
   ]
 

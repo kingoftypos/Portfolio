@@ -1,7 +1,10 @@
-"use client"
+
 
 import { useContext } from "react"
 import { ThemeContext } from "../context/ThemeContext"
+import resume from "../utils/Shreyansh_Mishra-CSE(AIML)-2100301530102.pdf"
+import kingoftypos from "../utils/kingoftypos.jpg"
+
 import { GitlabIcon as GitHub, Linkedin, Twitter, Mail, Download } from "lucide-react"
 
 const Hero = () => {
@@ -16,7 +19,7 @@ const Hero = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="order-2 lg:order-1">
             <p className="text-sky-500 font-medium mb-2">Hello, I'm</p>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-slate-800 dark:text-white">John Doe</h1>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4 text-slate-800 dark:text-white">Shreyansh Mishra</h1>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-slate-600 dark:text-slate-300">
               Full Stack Developer
             </h2>
@@ -29,7 +32,7 @@ const Hero = () => {
               <a href="#contact" className="btn-primary">
                 Contact Me
               </a>
-              <a href="/resume.pdf" className="btn-outline flex items-center gap-2">
+              <a href={resume} className="btn-outline flex items-center gap-2">
                 <Download size={18} />
                 Resume
               </a>
@@ -37,7 +40,7 @@ const Hero = () => {
 
             <div className="flex gap-4">
               <a
-                href="https://github.com"
+                href="https://github.com/kingoftypos"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-600 hover:text-sky-500 dark:text-slate-400 dark:hover:text-sky-400 transition-colors"
@@ -46,7 +49,7 @@ const Hero = () => {
                 <GitHub size={24} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/shreyansh-mishra-007926240/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-slate-600 hover:text-sky-500 dark:text-slate-400 dark:hover:text-sky-400 transition-colors"
@@ -64,7 +67,7 @@ const Hero = () => {
                 <Twitter size={24} />
               </a>
               <a
-                href="mailto:example@example.com"
+                href="mailto:mshreyansh121@gmail.com"
                 className="text-slate-600 hover:text-sky-500 dark:text-slate-400 dark:hover:text-sky-400 transition-colors"
                 aria-label="Email"
               >
@@ -77,8 +80,8 @@ const Hero = () => {
             <div className="relative">
               <div className="w-64 h-64 md:w-80 md:h-80 rounded-full bg-sky-500 bg-opacity-20 absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"></div>
               <img
-                src="/placeholder.svg?height=400&width=400"
-                alt="Developer"
+                src={kingoftypos}
+                alt="Shreyansh Mishra"
                 className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full relative z-10 border-4 border-white dark:border-slate-800"
               />
             </div>

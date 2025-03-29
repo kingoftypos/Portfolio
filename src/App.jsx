@@ -1,5 +1,5 @@
-"use client"
 
+import "./index.css";
 import { useState, useEffect } from "react"
 import Navbar from "./components/Navbar"
 import Hero from "./components/Hero"
@@ -42,10 +42,10 @@ function App() {
           <About />
           <Education />
           <Skills />
-          <Experience />
+          {/* <Experience /> */}
           <Projects />
           <Achievements />
-          <Testimonials />
+          {/* <Testimonials /> */}
           <Contact />
         </main>
         <Footer />

@@ -2,26 +2,26 @@ import { GraduationCap, Calendar } from "lucide-react"
 
 const Education = () => {
   const educationData = [
+    
     {
-      degree: "Master of Computer Science",
-      institution: "Stanford University",
-      duration: "2020 - 2022",
+      degree: "Bachelor of Technology in Computer Science and Engineering Specialization in AI and ML",
+      institution: "Inderprastha Engineering College, Ghaziabad",
+      duration: "2021-2025",
       description:
-        "Specialized in Artificial Intelligence and Machine Learning with a focus on Neural Networks and Deep Learning.",
+        "Graduated with 78%. Focused on software engineering and web development. Participated in various hackathons and coding competitions.",
     },
     {
-      degree: "Bachelor of Science in Computer Science",
-      institution: "MIT",
-      duration: "2016 - 2020",
-      description:
-        "Graduated with honors. Focused on software engineering and web development. Participated in various hackathons and coding competitions.",
+      degree: "High School",
+      institution: "St. Xavier's School, Salempur",
+      duration: "2016 - 2018",
+      description: "Completed high school with a focus on science and mathematics with 87.5%.",
     },
     {
-      degree: "High School Diploma",
-      institution: "Tech High School",
-      duration: "2012 - 2016",
-      description: "Graduated as valedictorian with a focus on mathematics and computer science.",
-    },
+      degree: "Senior Secondary School",
+      institution: "St. Xavier's School, Salempur",
+      duration: "2018 - 2020",
+      description: "Completed Senior Secondary school with a focus on science and mathematics with 86.6%.",
+    }
   ]
 
   return (

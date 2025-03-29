@@ -1,4 +1,4 @@
-"use client"
+
 
 import { useState } from "react"
 import { MapPin, Phone, Mail, Send } from "lucide-react"
@@ -23,20 +23,18 @@ const Contact = () => {
     e.preventDefault()
     setIsSubmitting(true)
 
-    // Simulate form submission
+    
     setTimeout(() => {
       setIsSubmitting(false)
       setSubmitStatus("success")
 
-      // Reset form after successful submission
+      
       setFormData({
         name: "",
         email: "",
         subject: "",
         message: "",
       })
-
-      // Clear success message after 5 seconds
       setTimeout(() => {
         setSubmitStatus(null)
       }, 5000)
@@ -63,7 +61,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-slate-800 dark:text-white">Location</h4>
-                  <p className="text-slate-600 dark:text-slate-400">New York, NY, United States</p>
+                  <p className="text-slate-600 dark:text-slate-400">Ghaziabad, India</p>
                 </div>
               </div>
 
@@ -73,7 +71,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-slate-800 dark:text-white">Email</h4>
-                  <p className="text-slate-600 dark:text-slate-400">example@example.com</p>
+                  <p className="text-slate-600 dark:text-slate-400">mshreyansh121@gmail.com</p>
                 </div>
               </div>
 
@@ -83,7 +81,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-slate-800 dark:text-white">Phone</h4>
-                  <p className="text-slate-600 dark:text-slate-400">+1 (123) 456-7890</p>
+                  <p className="text-slate-600 dark:text-slate-400">+91 8882993408</p>
                 </div>
               </div>
             </div>

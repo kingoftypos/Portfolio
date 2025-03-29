@@ -1,4 +1,4 @@
-"use client"
+
 
 import { createContext, useState, useEffect } from "react"
 
@@ -8,7 +8,6 @@ export const ThemeProvider = ({ children }) => {
   const [isDarkMode, setIsDarkMode] = useState(false)
 
   useEffect(() => {
-    // Check if user has a theme preference in localStorage
     const savedTheme = localStorage.getItem("theme")
     if (savedTheme === "dark") {
       setIsDarkMode(true)

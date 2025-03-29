@@ -3,31 +3,29 @@ import { Trophy, Award, Star, Medal } from "lucide-react"
 const Achievements = () => {
   const achievementsData = [
     {
-      title: "Best Web Developer Award",
+      title: "Leetcode",
       description:
-        "Recognized as the best web developer in the annual tech conference for outstanding contributions to web development.",
+        "Ranked 1801 on Leetcode with over 500 problems solved, showcasing strong problem-solving skills and algorithmic knowledge.",
       icon: <Trophy className="w-8 h-8 text-yellow-500" />,
-      year: "2022",
     },
     {
-      title: "1st Place Hackathon",
+      title: "CodeForces",
       description:
-        "Won first place in a 48-hour hackathon by developing an innovative solution for healthcare accessibility.",
+        "Ranked Pupil (max.1209) on Codeforces",
       icon: <Award className="w-8 h-8 text-yellow-500" />,
-      year: "2021",
     },
     {
-      title: "Open Source Contributor",
+      title: "Codechef",
       description:
-        "Recognized as a top contributor to several open-source projects with over 500 contributions on GitHub.",
+        "Ranked 1526 on codechef ie 2-star.",
       icon: <Star className="w-8 h-8 text-yellow-500" />,
-      year: "2020",
+      
     },
     {
-      title: "Excellence in Innovation",
-      description: "Received an award for developing a revolutionary algorithm that improved system efficiency by 40%.",
+      title: "Team Lead at Think-AI Club",
+      description: "Organised various webinars and coding competitions as a team lead.",
       icon: <Medal className="w-8 h-8 text-yellow-500" />,
-      year: "2019",
+      
     },
   ]
 

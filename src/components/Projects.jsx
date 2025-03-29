@@ -1,68 +1,64 @@
-"use client"
+
 
 import { useState } from "react"
 import { ExternalLink, GitlabIcon as GitHub } from "lucide-react"
+import cuisineconnect from "../utils/Cuisine-Connect.png"
+import skippers from "../utils/Skipper.png"
+import placeholder from "../utils/Default.png"
+import portfolio from "../utils/Portfolio.png"
 
 const Projects = () => {
-  const categories = ["All", "Web", "Mobile", "UI/UX", "Other"]
+  const categories = ["All", "Web", "Mobile", "ML", "Other"]
   const [activeCategory, setActiveCategory] = useState("All")
 
   const projectsData = [
     {
-      title: "E-commerce Platform",
+      title: "Cuisine Connect",
       description:
-        "A full-stack e-commerce platform with payment integration, user authentication, and admin dashboard.",
-      image: "/placeholder.svg?height=300&width=500",
+        "An interactive full-stack web application for recipe sharing, integrating user authentication and advanced filtering options.",
+      image: `${cuisineconnect}?height=300&width=500`,
       category: "Web",
-      technologies: ["React", "Node.js", "MongoDB", "Express", "Stripe"],
-      liveLink: "https://example.com",
-      githubLink: "https://github.com",
+      technologies: ["React", "Node.js", "MongoDB", "Express", "Context API","Tailwind CSS"],
+      liveLink: "https://cuisine-connect-teal.vercel.app/",
+      githubLink: "https://github.com/kingoftypos/recipe-share-frontend",
     },
     {
-      title: "Task Management App",
+      title: "Skippers",
       description:
-        "A task management application with drag-and-drop functionality, user authentication, and real-time updates.",
-      image: "/placeholder.svg?height=300&width=500",
+        "Skipper is a Codeforces Contest Status Tracker that allows users to search for their Codeforces ID and view the contests they have skipped. It fetches data from the Codeforces API to display relevant contest information and helps track user progress in various contests.",
+      image: `${skippers}?height=300&width=500`,
       category: "Web",
-      technologies: ["React", "Firebase", "Tailwind CSS"],
-      liveLink: "https://example.com",
-      githubLink: "https://github.com",
+      technologies: ["React", "Tailwind CSS","Shadcn UI","Codeforces API","Recoil"],
+      liveLink: "https://skippers.vercel.app/",
+      githubLink: "https://github.com/kingoftypos/skippers",
     },
     {
       title: "Weather Mobile App",
-      description: "A mobile application that provides real-time weather information based on user location.",
-      image: "/placeholder.svg?height=300&width=500",
-      category: "Mobile",
-      technologies: ["React Native", "API Integration", "Geolocation"],
-      liveLink: "https://example.com",
-      githubLink: "https://github.com",
+      description: "A mobile application that provides real-time weather information based on user location input.",
+      image: `${placeholder}?height=300&width=500`,
+      category: "Web",
+      technologies: ["HTML", "CSS", "JavaScript"],
+      liveLink: "https://github.com/kingoftypos/Weather-app",
+      githubLink: "https://github.com/kingoftypos/Weather-app",
     },
     {
       title: "Portfolio Website",
       description: "A responsive portfolio website showcasing projects and skills with dark mode support.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: `${portfolio}?height=300&width=500`,
       category: "Web",
-      technologies: ["React", "Tailwind CSS", "Framer Motion"],
+      technologies: ["React", "Tailwind CSS", "Framer Motion","JavaScript"],
       liveLink: "https://example.com",
-      githubLink: "https://github.com",
+      githubLink: "https://github.com/kingoftypos/Portfolio",
     },
-    {
-      title: "Dashboard UI Design",
-      description: "A modern dashboard UI design with interactive charts and data visualization components.",
-      image: "/placeholder.svg?height=300&width=500",
-      category: "UI/UX",
-      technologies: ["Figma", "Adobe XD", "Illustrator"],
-      liveLink: "https://example.com",
-      githubLink: "https://github.com",
-    },
+    
     {
       title: "Blog Platform",
       description: "A blog platform with content management system, user authentication, and comment functionality.",
-      image: "/placeholder.svg?height=300&width=500",
+      image: `${placeholder}?height=300&width=500`,
       category: "Web",
-      technologies: ["Next.js", "Prisma", "PostgreSQL", "Tailwind CSS"],
+      technologies: ["React","Node.js","MongoDB","Express"],
       liveLink: "https://example.com",
-      githubLink: "https://github.com",
+      githubLink: "https://github.com/kingoftypos/",
     },
   ]
 
