@@ -6,6 +6,12 @@ import cuisineconnect from "../utils/Cuisine-Connect.png"
 import skippers from "../utils/Skipper.png"
 import placeholder from "../utils/Default.png"
 import portfolio from "../utils/Portfolio.png"
+import BMIcalc from "../utils/BMIcalculator.png"
+import Infobook from "../utils/Infobook.png"
+import Mapapp from "../utils/mapapp.png"
+import Mathgame from "../utils/Mathgame.png"
+import todolistapp from "../utils/todolistapp.png"
+import numberguessinggame from "../utils/numberguessinggame.png"
 
 const Projects = () => {
   const categories = ["All", "Web", "Mobile", "ML", "Other"]
@@ -18,7 +24,7 @@ const Projects = () => {
         "An interactive full-stack web application for recipe sharing, integrating user authentication and advanced filtering options.",
       image: `${cuisineconnect}?height=300&width=500`,
       category: "Web",
-      technologies: ["React", "Node.js", "MongoDB", "Express", "Context API","Tailwind CSS"],
+      technologies: ["React", "Node.js", "MongoDB", "Express", "Context API","Tailwind CSS","NodeMailer","JWT"],
       liveLink: "https://cuisine-connect-teal.vercel.app/",
       githubLink: "https://github.com/kingoftypos/recipe-share-frontend",
     },
@@ -37,7 +43,7 @@ const Projects = () => {
       description: "A mobile application that provides real-time weather information based on user location input.",
       image: `${placeholder}?height=300&width=500`,
       category: "Web",
-      technologies: ["HTML", "CSS", "JavaScript"],
+      technologies: ["HTML", "CSS", "JavaScript","Weather API"],
       liveLink: "https://github.com/kingoftypos/Weather-app",
       githubLink: "https://github.com/kingoftypos/Weather-app",
     },
@@ -56,9 +62,61 @@ const Projects = () => {
       description: "A blog platform with content management system, user authentication, and comment functionality.",
       image: `${placeholder}?height=300&width=500`,
       category: "Web",
-      technologies: ["React","Node.js","MongoDB","Express"],
+      technologies: ["React","Node.js","MongoDB","Express","Tailwind CSS","JWT","NodeMailer","Redux","Socket.io"],
       liveLink: "https://example.com",
       githubLink: "https://github.com/kingoftypos/",
+    },
+    {
+      title: "BMI calculator",
+      description: "A simple BMI calculator that allows users to input their height and weight to calculate their Body Mass Index.",
+      image: `${BMIcalc}?height=300&width=500`,
+      category: "Mobile",
+      technologies: ["Android","Java","XML"],
+      liveLink: "https://github.com/kingoftypos/Bmi-calculator",
+      githubLink: "https://github.com/kingoftypos/Bmi-calculator",
+    },
+    {
+      title: "Information book",
+      description: "An information book app to practice fragments in Android.",
+      image: `${Infobook}?height=300&width=500`,
+      category: "Mobile",
+      technologies: ["Android","Java","XML","Fragments"],
+      liveLink: "https://github.com/kingoftypos/information-book",
+      githubLink: "https://github.com/kingoftypos/information-book",
+    },{
+      title: "Map app",
+      description: "A simple app to practice maps in Android.",
+      image: `${Mapapp}?height=300&width=500`,
+      category: "Mobile",
+      technologies: ["Android","Java","XML","Maps"],
+      liveLink: "https://github.com/kingoftypos/Map-app",
+      githubLink: "https://github.com/kingoftypos/Map-app",
+    },{
+      title: "Math game",
+      description: "A simple mathematical operation i.e,Addition,Subtraction based game where one has answer something within a time constraint",
+      image: `${Mathgame}?height=300&width=500`,
+      category: "Mobile",
+      technologies: ["Android","Java","XML"],
+      liveLink: "https://github.com/kingoftypos/Maths-Game",
+      githubLink: "https://github.com/kingoftypos/Maths-Game",
+    },
+    {
+      title: "Todo list app",
+      description: "A simple todolist app implemented using a file helper class",
+      image: `${todolistapp}?height=300&width=500`,
+      category: "Mobile",
+      technologies: ["Android","Java","XML","File I/O"],
+      liveLink: "https://github.com/kingoftypos/Todolist-app",
+      githubLink: "https://github.com/kingoftypos/Todolist-app",
+    },
+    {
+      title: "Number guessing game",
+      description: "A guessing game where one can have two guess a number.",
+      image: `${numberguessinggame}?height=300&width=500`,
+      category: "Mobile",
+      technologies: ["Android","Java","XML"],
+      liveLink: "https://github.com/kingoftypos/Todolist-app",
+      githubLink: "https://github.com/kingoftypos/Todolist-app",
     },
   ]
 
